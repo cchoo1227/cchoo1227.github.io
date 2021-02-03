@@ -2275,6 +2275,8 @@ dl { font-size: 0.8rem; }
 
 .background-element.bg-grey { background-color: #F9F8F6; }
 
+@media screen and (max-width: 576px) { .background-element { height: 80px; } .background-element img#laptop { margin-top: -20px; } }
+
 .works .back { display: inline-block; border-bottom: 1px solid transparent; transition: all .2s; }
 
 .works .back a:hover { text-decoration: none; }

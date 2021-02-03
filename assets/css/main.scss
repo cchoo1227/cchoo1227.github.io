@@ -158,6 +158,18 @@ dl {
         background-color: #F9F8F6;
     }
 
+
+    @media screen and (max-width: 576px)
+    {
+
+        height: 80px;
+
+        img#laptop {
+            margin-top: -20px;
+        }
+        
+    }
+
 }
 
 //INDIV WORK CSS
