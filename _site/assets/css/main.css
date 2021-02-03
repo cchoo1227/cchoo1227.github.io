@@ -2269,7 +2269,7 @@ dl { font-size: 0.8rem; }
 
 #work { background-color: #F9F8F6; }
 
-.background-element { height: 50px; overflow: visible; background-color: #fff; }
+.background-element { height: 50px; overflow: visible; background-color: #fff; position: relative; z-index: 99999; }
 
 .background-element img#cat { width: 200px; margin-top: -50px; }
 
@@ -2293,9 +2293,7 @@ dl { font-size: 0.8rem; }
 
 .works .work-img .overlay { position: absolute; z-index: 10; top: 0; left: 0; width: 100%; height: 100%; background-color: #222; opacity: 0; transition: opacity .25s ease-in-out; }
 
-.works .work-img .link { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 20; opacity: 0; transition: opacity .25s ease-in-out; text-align: center; }
-
-.works .work-img .link a { position: relative; top: 220px; }
+.works .work-img .link { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 20; opacity: 0; transition: opacity .25s ease-in-out; text-align: center; display: flex; align-items: center; justify-content: center; }
 
 .works .work-img:hover .overlay { opacity: 0.6; }
 
