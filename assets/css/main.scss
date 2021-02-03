@@ -153,7 +153,7 @@ dl {
         position: relative;
         z-index: 99999;    
     }
-    
+
     img#cat {
         width: 200px;
         margin-top: -50px;
@@ -167,10 +167,9 @@ dl {
     @media screen and (max-width: 576px)
     {
 
-        height: 80px;
-
         img#laptop {
             margin-top: -20px;
+            width: 100px;
         }
         
     }

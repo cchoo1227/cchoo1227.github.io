@@ -2269,13 +2269,15 @@ dl { font-size: 0.8rem; }
 
 #work { background-color: #F9F8F6; }
 
-.background-element { height: 50px; overflow: visible; background-color: #fff; position: relative; z-index: 99999; }
+.background-element { height: 50px; overflow: visible; background-color: #fff; }
+
+.background-element img { position: relative; z-index: 99999; }
 
 .background-element img#cat { width: 200px; margin-top: -50px; }
 
 .background-element.bg-grey { background-color: #F9F8F6; }
 
-@media screen and (max-width: 576px) { .background-element { height: 80px; } .background-element img#laptop { margin-top: -20px; } }
+@media screen and (max-width: 576px) { .background-element img#laptop { margin-top: -20px; width: 100px; } }
 
 .works .back { display: inline-block; border-bottom: 1px solid transparent; transition: all .2s; }
 
