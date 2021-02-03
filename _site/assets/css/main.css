@@ -2235,7 +2235,7 @@ a { font-weight: 700; transition: all .25s ease-in-out; }
 
 .material-icons { display: inline-flex; vertical-align: middle; }
 
-.card { height: 100%; transition: all .2s; }
+.card { height: 100%; transition: all .2s; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; }
 
 .card:hover { scale: 1.05; }
 
@@ -2267,6 +2267,8 @@ dl { font-size: 0.8rem; }
 
 @media screen and (max-width: 576px) { #hero .btn { width: 100%; } }
 
+.skills { box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; border-radius: 10px; }
+
 #work { background-color: #F9F8F6; }
 
 .background-element { height: 50px; overflow: visible; background-color: #fff; }
@@ -2279,7 +2281,9 @@ dl { font-size: 0.8rem; }
 
 .background-element.bg-grey { background-color: #F9F8F6; }
 
-@media screen and (max-width: 576px) { .background-element.bg-beige { height: 70px; } .background-element img#cat-grey { margin-top: -20px; height: 150px; } }
+.background-element.bg-grey > div { text-align: left; }
+
+@media screen and (max-width: 576px) { .background-element.bg-beige { height: 70px; } .background-element img#cat-grey { margin-top: -20px; height: 150px; } .background-element.bg-grey > div { text-align: center; } }
 
 .works .back { display: inline-block; border-bottom: 1px solid transparent; transition: all .2s; }
 
