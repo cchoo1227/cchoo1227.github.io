@@ -3,44 +3,54 @@
 @import 'bootstrap/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Taviraj:wght@400;500;600&display=swap');
 
-body {
+//GLOBAL CSS
 
-    //typo
-    h1, h2, h3, h4 {
-        font-family: 'Taviraj', sans-serif;
-        font-weight: 500;
-        color: #D1352A;
-    }
+//typo
+h1, h2, h3, h4 {
+    font-family: 'Taviraj', sans-serif;
+    font-weight: 500;
+    color: #D1352A;
+}
 
-    a {
-        font-weight: 500;
-    }
+a {
+    font-weight: 500;
+    transition: all .25s ease-in-out; 
+}
 
-    //buttons
-    .btn {
-        width: 150px;
-        background-color: transparent;
-        border: 1px solid #D1352A;
-        border-radius: 30px;
-        transition: 0.3s;
-    }
-    
-    .btn:hover {
-        background-color: #D1352A;
-        color: #fff;
-    }
+//buttons
+.btn {
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid #D1352A;
+    border-radius: 30px;
+    transition: 0.3s;
+}
 
-    //material icons
-    .material-icons {
-        display: inline-flex;
-        vertical-align: middle;
-    }
+.btn:hover {
+    background-color: #D1352A;
+    color: #fff;
+}
 
+//material icons
+.material-icons {
+    display: inline-flex;
+    vertical-align: middle;
+}
 
+//cards
+.card {
+    height: 100%;
 }
 
 //navbar css
-nav {
+.navbar-light .navbar-nav .nav-link {
+
+    opacity: 0.9;
+
+    &:hover {
+        color: #442C1D;
+        opacity: 1;
+    }
 
 }
 
@@ -48,10 +58,56 @@ nav {
     overflow:auto;
 }
 
+//contact css
+#contact {
+    background-color: #F6EEE3;
+}
+
+//footer css
+footer {
+
+    a {
+        opacity: 0.5;
+    }
+
+    a:hover {
+        text-decoration: none;
+        opacity: 0.8;
+        color: #442C1D;
+    }
+
+
+}
+
+
+
+//INDEX CSS
+
 //hero css
 #hero {
     background-color: #F6EEE3;
     margin-top: 0 !important;
+
+    img {
+        width: 100%;
+    }
+
+    .col-md-6 {
+        align-items: center;
+        display: flex;
+    }
+
+    @media screen and (max-width: 576px)
+    {
+
+        .btn {
+
+            width: 100%;
+        
+        }
+
+    }
+
 }
 
 //work css
@@ -59,28 +115,25 @@ nav {
     background-color: #F9F8F6;
 }
 
-//contact css
-#contact {
-    background-color: #F6EEE3;
-}
-
 //image overlay
 .background-element {
 
-    height: 140px;
+    height: 50px;
     overflow: visible;
-    background-color: #F6EEE3;
+    background-color: #fff;
 
-    img {
-        margin-top: -50px;
+    img#cat {
         width: 200px;
+        margin-top: -50px;
     }
 
-    &.bg-white {
-        height: 100px;
+    &.bg-grey {
+        background-color: #F9F8F6;
     }
 
 }
+
+//INDIV WORK CSS
 
 //works css
 .works {

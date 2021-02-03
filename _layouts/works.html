@@ -13,7 +13,7 @@
       
     {% include navbar.html %}
   
-    <div class="container-fluid works" id="hero">
+    <div class="container-fluid works bg-grey">
       <div class="row w-75 py-5 mx-auto">
           <div class="col-md-4">
             {% assign work = site.data.works.info[page.id] %}
@@ -33,6 +33,14 @@
                   {{category}}
                   {% endfor %}  
                 </li>
+                {% if work.team !=null %}
+                <li>
+                  <b>{{work.team}}, My Contributions</b>
+                  {% for contribution in work.contributions %}
+                  {{contribution}}
+                  {% endfor %}  
+                </li>
+                {% endif %}
               </ul>
             </div>
           </div>
@@ -79,6 +87,7 @@
             {% endif %}
           </div>
       </div>
+    </div>
 
     {% include footer.html %}
 

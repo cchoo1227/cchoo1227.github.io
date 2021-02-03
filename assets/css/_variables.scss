@@ -3,4 +3,8 @@ $font-family-base: "Montserrat", sans-serif;
 $body-color: #442C1D;
 
 //colours
-$primary: #442C1D;
+$theme-colors: (
+  "primary": #442C1D,
+  "beige": #F6EEE3,
+  "grey": #F9F8F6
+);

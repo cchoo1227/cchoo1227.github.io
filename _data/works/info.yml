@@ -61,7 +61,13 @@ moonlight:
 
 neogroup: 
   title: Neogroup 
-  desc: Corporate website for Neogroup.
+  desc: Corporate website for Neogroup.</p> 
+  team: Team of 2
+  contributions: 
+    - Home
+    - About
+    - Brands
+    - Contact
   category: 
     - Design
     - Front-end Development 
@@ -116,6 +122,11 @@ sgmoneylender:
 maxicash: 
   title: Maxicash App
   desc: Full-stack e-commerce mobile application for Maxicash Singapore.
+  team: Team of 3
+  contributions:
+    - Front-end development
+    - Dynamic homepage 
+    - Full-stack development of admin dashboard web application 
   category: 
     - Full-stack Development
   skills: 

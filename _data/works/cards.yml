@@ -1,36 +1,35 @@
-
-- title: Moonlight Cinemas 
-  image: ddd
-  link: /works/moonlight
-
-- title: Park Hotel Group Website Redesign
-  image: ddd
-  link: /works/parkhotel
-
-- title: SG Money Lender
-  image: ddd
-  link: /works/sgmoneylender
-
-- title: Sandpiper Communications
-  image: ddd
-  link: /works/sandpiper
- 
-- title: Neogroup
-  image: ddd
-  link: /works/neogroup
- 
-- title: Dolce Vita
-  image: ddd
-  link: /works/dolcevita
-
 - title: Let's Cook 
-  image: ddd
+  image: ../assets/images/tb/letscook-tb.jpg
   link: /works/letscook
 
 - title: Maxicash 
-  image: ddd
+  image: ../assets/images/tb/maxicash-tb.jpg
   link: /works/maxicash
 
+- title: Moonlight Cinemas 
+  image: ../assets/images/tb/moonlight-tb.jpg
+  link: /works/moonlight
+
+- title: Sandpiper Communications
+  image: ../assets/images/tb/sandpiper-tb.jpg
+  link: /works/sandpiper
+ 
+- title: Neogroup
+  image: ../assets/images/tb/neogroup-tb.jpg
+  link: /works/neogroup
+ 
+- title: Dolce Vita
+  image: ../assets/images/tb/dolcevita-tb.jpg
+  link: /works/dolcevita
+
+- title: SG Money Lender
+  image: ../assets/images/tb/sgmoneylender-tb.jpg
+  link: /works/sgmoneylender
+
+- title: Park Hotel Group Website Redesign
+  image: ../assets/images/tb/parkhotel-tb.jpg
+  link: /works/parkhotel
+
 - title: New Light 
-  image: ddd
+  image: ../assets/images/tb/newlight-tb.jpg
   link: /works/newlight
