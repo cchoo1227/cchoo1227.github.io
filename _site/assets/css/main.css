@@ -2275,9 +2275,11 @@ dl { font-size: 0.8rem; }
 
 .background-element img#cat { width: 200px; margin-top: -50px; }
 
+.background-element img#cat-grey { height: 200px; margin-top: -40px; }
+
 .background-element.bg-grey { background-color: #F9F8F6; }
 
-@media screen and (max-width: 576px) { .background-element img#laptop { margin-top: -20px; width: 100px; } }
+@media screen and (max-width: 576px) { .background-element.bg-beige { height: 70px; } .background-element img#cat-grey { margin-top: -20px; height: 150px; } }
 
 .works .back { display: inline-block; border-bottom: 1px solid transparent; transition: all .2s; }
 
