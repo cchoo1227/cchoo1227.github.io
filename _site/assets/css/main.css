@@ -2263,6 +2263,8 @@ dl { font-size: 0.8rem; }
 
 #hero .col-md-6 { align-items: center; display: flex; }
 
+#hero .btn { display: inline-block; }
+
 @media screen and (max-width: 576px) { #hero .btn { width: 100%; } }
 
 #work { background-color: #F9F8F6; }
