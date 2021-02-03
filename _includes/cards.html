@@ -1,12 +1,12 @@
 {% for item in site.data.works.cards %}
 <div class="col-md-4 mb-3">
-<a href="{{item.link}}">
   <div class="card">
-    <img class="card-img-top" src="{{item.image}}" alt="Card image cap">
+    <a href="{{item.link}}"><img class="card-img-top" src="{{item.image}}" alt="Card image cap"></a>
     <div class="card-body">
       <h6 class="card-title">{{item.title}}</h6>
+      <p><small>{{item.category}}</small></p>
     </div>
   </div>
-</a>
+
 </div>
 {% endfor %}  

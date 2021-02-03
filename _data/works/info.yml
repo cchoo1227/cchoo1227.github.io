@@ -1,6 +1,7 @@
 letscook: 
   title: Let's Cook 
   desc: Cooking simulation mobile game to promote healthy eating among children.
+  type: personal project
   category: 
     - Design
     - Game Development
@@ -16,10 +17,13 @@ letscook:
 
 newlight: 
   title: New Light 
-  desc: Bringing thrift online. Finalist for NTU WSC Ideathon.
+  desc: Concept for an online thrift store. Finalist for NTU WSC Ideathon.
+  type: personal project
+  team: team of 4
+  contributions:
+  - App Design
   category: 
     - Design
-    - Copywriting
   skills: 
     - Figma
   image: ../assets/images/newlight/newlight-1.jpg
@@ -30,7 +34,17 @@ newlight:
 
 dolcevita: 
   title: Dolce Vita
-  desc: Website for a luxury pet photography service.
+  desc: Website template for a luxury pet photography service.
+  type: personal project
+  team: Team of 4
+  contributions:
+    - Home
+    - The Team
+    - Wallart
+    - Packages
+    - Charity
+    - Contact Us
+    - Covid-19 Update
   category: 
     - Design
     - Front-end Development
@@ -45,7 +59,8 @@ dolcevita:
 
 moonlight: 
   title: Moonlight Cinemas 
-  desc: A full-stack web application for a cinema booking system. Best viewed on desktop.
+  desc: Full-stack web application for a cinema booking system. <em>Best viewed on desktop</em>.
+  type: personal project
   category: 
     - Design
     - Full-stack Development
@@ -63,6 +78,7 @@ neogroup:
   title: Neogroup 
   desc: Corporate website for Neogroup.</p> 
   team: Team of 2
+  type: client project
   contributions: 
     - Home
     - About
@@ -80,8 +96,9 @@ neogroup:
   link: https://neogroup.sg/
 
 parkhotel: 
-  title: Park Hotel Group Website Redesign
-  desc: Redesign of Park Hotel Group's website to reflect current landscape
+  title: Park Hotel Group 
+  desc: Personal adaptation of Park Hotel Group's website to Covid-19 Pandemic
+  type: personal project
   category: 
     - Web Design
     - Copywriting
@@ -92,6 +109,7 @@ parkhotel:
 sandpiper: 
   title: Sandpiper Communications
   desc: Corporate website for Sandpiper Communications.
+  type: client project
   category: 
     - Front-end Development 
   skills: 
@@ -105,11 +123,15 @@ sandpiper:
 
 sgmoneylender: 
   title: SG Money Lender
-  desc: Website for money lending company. Best viewed on desktop.
-  category: 
+  desc: Website template for a money lending company. <em>Best viewed on desktop</em>.
+  team: Team of 2
+  type: personal project
+  contributions:
+    - Front-end development
     - Web Design
+  category: 
+    - Design
     - Front-end Development 
-    - Copywriting
   skills: 
     - HTML
     - CSS
@@ -123,9 +145,10 @@ maxicash:
   title: Maxicash App
   desc: Full-stack e-commerce mobile application for Maxicash Singapore.
   team: Team of 3
+  type: personal project
   contributions:
     - Front-end development
-    - Dynamic homepage 
+    - Server-side code for Homepage
     - Full-stack development of admin dashboard web application 
   category: 
     - Full-stack Development

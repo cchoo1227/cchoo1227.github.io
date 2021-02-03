@@ -1,7 +1,7 @@
 ---
 ---
 @import 'bootstrap/bootstrap';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Taviraj:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Taviraj:wght@400;500;600&display=swap');
 
 //GLOBAL CSS
 
@@ -13,21 +13,23 @@ h1, h2, h3, h4 {
 }
 
 a {
-    font-weight: 500;
+    font-weight: 700;
     transition: all .25s ease-in-out; 
 }
 
 //buttons
 .btn {
     width: 150px;
-    background-color: transparent;
-    border: 1px solid #D1352A;
+    background-color: #D1352A;
+    border: 2px solid #D1352A;
+    
     border-radius: 30px;
-    transition: 0.3s;
+    color: #fff;
+    transition: all .2s; 
 }
 
 .btn:hover {
-    background-color: #D1352A;
+    scale: 1.1;
     color: #fff;
 }
 
@@ -40,7 +42,25 @@ a {
 //cards
 .card {
     height: 100%;
+    transition: all .2s; 
+
+    &:hover {
+        scale: 1.05;
+    }
+
+    .card-body{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        small {
+            text-transform: capitalize;
+        }
+    
+    }
 }
+
+
 
 //navbar css
 .navbar-light .navbar-nav .nav-link {
@@ -79,7 +99,10 @@ footer {
 
 }
 
-
+//desc list css
+dl {
+    font-size: 0.8rem;
+}
 
 //INDEX CSS
 
@@ -138,6 +161,30 @@ footer {
 //works css
 .works {
 
+    .back {
+    
+        display: inline-block;
+        border-bottom: 1px solid transparent;
+        transition: all .2s;
+        
+        a:hover {
+            text-decoration: none;
+        }
+
+        &:hover {
+            border-bottom: 1px solid #442C1D;
+        }
+    }
+
+    small {
+        text-transform: capitalize;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+    }
+
     img {
         width: 100%;
     }
@@ -186,7 +233,13 @@ footer {
             opacity: 1;
         }
 
+
     }
 
+}
+
+//attr ss 
+.attr a {
+    font-weight: 400;
 }
 

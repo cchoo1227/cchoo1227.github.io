@@ -1,35 +1,44 @@
 - title: Let's Cook 
   image: ../assets/images/tb/letscook-tb.jpg
   link: /works/letscook
+  category: personal
 
 - title: Maxicash 
   image: ../assets/images/tb/maxicash-tb.jpg
   link: /works/maxicash
+  category: client
 
 - title: Moonlight Cinemas 
   image: ../assets/images/tb/moonlight-tb.jpg
   link: /works/moonlight
+  category: personal
 
 - title: Sandpiper Communications
   image: ../assets/images/tb/sandpiper-tb.jpg
   link: /works/sandpiper
+  category: client
  
 - title: Neogroup
   image: ../assets/images/tb/neogroup-tb.jpg
   link: /works/neogroup
+  category: client
  
 - title: Dolce Vita
   image: ../assets/images/tb/dolcevita-tb.jpg
   link: /works/dolcevita
+  category: personal
 
 - title: SG Money Lender
   image: ../assets/images/tb/sgmoneylender-tb.jpg
   link: /works/sgmoneylender
+  category: personal
 
-- title: Park Hotel Group Website Redesign
+- title: Park Hotel Group 
   image: ../assets/images/tb/parkhotel-tb.jpg
   link: /works/parkhotel
+  category: personal
 
 - title: New Light 
   image: ../assets/images/tb/newlight-tb.jpg
   link: /works/newlight
+  category: personal
