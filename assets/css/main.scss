@@ -148,6 +148,8 @@ dl {
     height: 50px;
     overflow: visible;
     background-color: #fff;
+    position: relative;
+    z-index: 99999;
 
     img#cat {
         width: 200px;
