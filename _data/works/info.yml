@@ -1,0 +1,131 @@
+letscook: 
+  title: Let's Cook 
+  desc: Cooking simulation mobile game to promote healthy eating among children.
+  category: 
+    - Design
+    - Game Development
+  skills: 
+    - Unity3D
+    - ManomotionSDK
+    - Procreate
+  image: ../assets/images/letscook/letscook-1.jpg
+  slides: 
+    - ../assets/images/letscook/letscook-2.jpg
+    - ../assets/images/letscook/letscook-3.jpg
+    - ../assets/images/letscook/letscook-4.jpg
+
+newlight: 
+  title: New Light 
+  desc: Bringing thrift online. Finalist for NTU WSC Ideathon.
+  category: 
+    - Design
+    - Copywriting
+  skills: 
+    - Figma
+  image: ../assets/images/newlight/newlight-1.jpg
+  slides: 
+    - ../assets/images/newlight/newlight-2.jpg
+    - ../assets/images/newlight/newlight-3.jpg
+    - ../assets/images/newlight/newlight-4.jpg
+
+dolcevita: 
+  title: Dolce Vita
+  desc: Website for a luxury pet photography service.
+  category: 
+    - Design
+    - Front-end Development
+  skills: 
+    - HTML
+    - CSS
+    - JavaScript
+    - Bulma
+    - Figma
+  image: ../assets/images/dolcevita.jpg
+  link: https://cchoo1227.github.io/Dolce-Vita/
+
+moonlight: 
+  title: Moonlight Cinemas 
+  desc: A full-stack web application for a cinema booking system. Best viewed on desktop.
+  category: 
+    - Design
+    - Full-stack Development
+  skills: 
+    - HTML5
+    - CSS3
+    - JavaScript
+    - PHP
+    - SQL
+    - Figma
+  image: ../assets/images/moonlight.jpg
+  link: https://github.com/cchoo1227/moonlight
+
+neogroup: 
+  title: Neogroup 
+  desc: Corporate website for Neogroup.
+  category: 
+    - Design
+    - Front-end Development 
+  skills: 
+    - HTML
+    - CSS
+    - JavaScript
+    - Wordpress CMS
+  image: ../assets/images/neogroup.jpg
+  link: https://neogroup.sg/
+
+parkhotel: 
+  title: Park Hotel Group Website Redesign
+  desc: Redesign of Park Hotel Group's website to reflect current landscape
+  category: 
+    - Web Design
+    - Copywriting
+  skills: 
+    - Figma
+  image: ../assets/images/parkhotel.jpg
+
+sandpiper: 
+  title: Sandpiper Communications
+  desc: Corporate website for Sandpiper Communications.
+  category: 
+    - Front-end Development 
+  skills: 
+    - HTML
+    - CSS
+    - JavaScript
+    - Wordpress CMS
+  image: ../assets/images/sandpiper.jpg
+  link: https://sandpipercomms.com/
+
+
+sgmoneylender: 
+  title: SG Money Lender
+  desc: Website for money lending company. Best viewed on desktop.
+  category: 
+    - Web Design
+    - Front-end Development 
+    - Copywriting
+  skills: 
+    - HTML
+    - CSS
+    - JavaScript
+    - Bulma
+    - Figma
+  image: ../assets/images/sgmoneylender.jpg
+  link: https://cchoo1227.github.io/sg-money-lender/
+
+maxicash: 
+  title: Maxicash App
+  desc: Full-stack e-commerce mobile application for Maxicash Singapore.
+  category: 
+    - Full-stack Development
+  skills: 
+    - HTML
+    - CSS
+    - Vue.js
+    - NativeScript
+    - Node.js
+    - MongoDB
+  image: ../assets/images/maxicash.jpg
+  link: https://play.google.com/store/apps/details?id=com.MaxiCash.ipayment&hl=en_SG&gl=US
+
+  
