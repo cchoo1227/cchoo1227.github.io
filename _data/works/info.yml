@@ -147,9 +147,9 @@ maxicash:
   team: Team of 3
   type: Client Project
   contributions:
+    - Full-stack development of admin dashboard web application 
     - Front-end development
     - Server-side code for Homepage
-    - Full-stack development of admin dashboard web application 
   category: 
     - Full-stack Development
   skills: 

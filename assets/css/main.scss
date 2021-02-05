@@ -133,6 +133,11 @@ dl {
         display: inline-block;
     }
 
+    .hero-text .subtitle {
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
     @media screen and (max-width: 576px)
     {
 
@@ -140,6 +145,10 @@ dl {
 
             width: 100%;
         
+        }
+
+        .hero-text {
+            text-align: center;
         }
 
     }
@@ -169,14 +178,16 @@ dl {
         z-index: 99999;    
     }
 
-    img#cat {
+    img#leaf {
         width: 200px;
         margin-top: -50px;
+        transform: rotate(10deg);
     }
 
-    img#cat-grey{
+    img#hand{
         height: 180px;
         margin-top: -20px;
+        transform: rotate(20deg);
     }
 
     &.bg-grey {
@@ -194,7 +205,12 @@ dl {
             height: 70px;
         }
 
-        img#cat-grey {
+        img#leaf {
+            width: 150px;
+            margin-top: -20px;
+        }
+
+        img#hand{
             margin-top: -20px;
             height: 150px;
         }

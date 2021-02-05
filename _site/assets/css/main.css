@@ -2267,7 +2267,9 @@ dl { font-size: 0.8rem; }
 
 #hero .btn { display: inline-block; }
 
-@media screen and (max-width: 576px) { #hero .btn { width: 100%; } }
+#hero .hero-text .subtitle { font-weight: 500; font-size: 1.2rem; }
+
+@media screen and (max-width: 576px) { #hero .btn { width: 100%; } #hero .hero-text { text-align: center; } }
 
 .skills { box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; border-radius: 10px; }
 
@@ -2277,15 +2279,15 @@ dl { font-size: 0.8rem; }
 
 .background-element img { position: relative; z-index: 99999; }
 
-.background-element img#cat { width: 200px; margin-top: -50px; }
+.background-element img#leaf { width: 200px; margin-top: -50px; transform: rotate(10deg); }
 
-.background-element img#cat-grey { height: 180px; margin-top: -20px; }
+.background-element img#hand { height: 180px; margin-top: -20px; transform: rotate(20deg); }
 
 .background-element.bg-grey { background-color: #F9F8F6; }
 
 .background-element.bg-grey > div { text-align: left; }
 
-@media screen and (max-width: 576px) { .background-element.bg-beige { height: 70px; } .background-element img#cat-grey { margin-top: -20px; height: 150px; } .background-element.bg-grey > div { text-align: center; } }
+@media screen and (max-width: 576px) { .background-element.bg-beige { height: 70px; } .background-element img#leaf { width: 150px; margin-top: -20px; } .background-element img#hand { margin-top: -20px; height: 150px; } .background-element.bg-grey > div { text-align: center; } }
 
 .works .back { display: inline-block; border-bottom: 1px solid transparent; transition: all .2s; }
 
