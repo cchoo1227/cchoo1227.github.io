@@ -41,6 +41,12 @@ a {
 }
 
 //cards
+.card-link:hover {
+
+    text-decoration: none;
+
+}
+
 .card {
     height: 100%;
     transition: all .2s; 
@@ -60,6 +66,8 @@ a {
         }
     
     }
+    z
+     
 }
 
 
@@ -145,8 +153,8 @@ dl {
     border-radius: 10px;
 }
 
-//work css
-#work {
+//about css
+#about {
     background-color: #F9F8F6;
 }
 
@@ -168,8 +176,8 @@ dl {
     }
 
     img#cat-grey{
-        height: 200px;
-        margin-top: -40px;
+        height: 180px;
+        margin-top: -20px;
     }
 
     &.bg-grey {

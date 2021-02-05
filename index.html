@@ -11,10 +11,10 @@ layout: default
       <div class="col-md-6 pl-md-5 mt-5 mt-md-0">
         <div>
           <h1>Coslynn Choo</h1>
-          <h5>Code, design & cats</h5>
+          <h5>Front-end Development & Design</h5>
           <div class="buttons mt-5">
-            <a class="btn mb-3 mb-sm-0 mr-sm-5" href="#about" role="button">About Me</a>
-            <a class="btn " href="#work" role="button">My Work</a>
+            <a class="btn mb-3 mb-sm-0 mr-sm-5" href="#work" role="button">My Works</a>
+            <a class="btn" href="#about" role="button">About Me</a>
           </div>
         </div>
       </div>
@@ -23,20 +23,40 @@ layout: default
 
   </div>
 
+  <div class="container-fluid background-element bg-beige">
+    <div class="w-75 mx-auto text-right">
+        <img id="cat" src="/assets/images/cat.png">
+    </div>
+  </div>
+  
+  <div class="background-element"></div>
+
+<!--MY WORK-->
+  <div class="containerfluid" id="work">
+    <div class="row w-75 py-5 mx-auto">
+      <div class="col-12 mb-3">
+        <h2>My Works</h2>
+      </div>
+      {% include cards.html %}
+      </div>
+
+  </div>
+
   <!--ABOUT ME-->
   <div class="container-fluid" id="about">
-        <div class="row w-75 py-5 mx-auto">
-          <div class="col-12 mb-3">
-            <h2>About Me</h2>
-          </div>
-            <div class="col-md-6">
-            <p>Hi there!</p>
-            <p>I am a final year undergraduate from Nanyang Technological University, majoring in Information Engineering and Media.</p>
-            <p>I love facing challenges and solving problems, so getting into coding was natural for me.</p>
-            <p>Scroll down to see some of my past works, and let's <a href="#contact">get in touch</a>!</p>
-            </div>
-            <div class="col-md-6 p-md-4 p-3 skills">
-            <dl>
+    <div class="row w-75 py-5 mx-auto">
+      <div class="col-12 mb-3">
+        <h2>About Me</h2>
+      </div>
+        <div class="col-md-6">
+        <p>Hi there!</p>
+        <p>I am a final year undergraduate from Nanyang Technological University, majoring in Information Engineering and Media.</p>
+        <p>I love facing challenges and solving problems, so getting into coding was natural for me.</p>
+        <p>If you liked my works, let's <a href="#contact">get in touch</a>!</p>
+        </div>
+        <div class="col-md-6">
+          <div class="p-3 p-md-4 skills bg-white">
+            <dl class="m-0">
               <dt>
                 Languages
               </dt>
@@ -52,38 +72,13 @@ layout: default
               <dt>
                 Software Applications
               </dt>
-              <dd>
-                Unity3D, Android Studio, Figma, GIMP, Microsoft Office 2019 (Excel, Word, PowerPoint, Outlook), Adobe Photoshop, Adobe Illustrator, Procreate, Autodesk Inventor Professional 2020
-              </dd>
-              <dt>
-                Hobbies
-              </dt>
-              <dd>
-                Hiking, Reading, Cooking, Playing with Cats 
+                Unity3D, Android Studio, Figma, GIMP, Microsoft Office 2019 (Excel, Word, PowerPoint, Outlook), Adobe Photoshop, Adobe Illustrator, Procreate, Autodesk Inventor Professional
               </dd>
             </dl>
-            </div>
+          </div>
         </div>
-  </div>
-
-<div class="container-fluid background-element">
-  <div class="w-75 mx-auto text-right">
-      <img id="cat" src="/assets/images/cat.png">
-  </div>
+    </div>
 </div>
-
-<div class="background-element bg-grey"></div>
-
-<!--MY WORK-->
-  <div class="container-fluid" id="work">
-    <div class="row w-75 py-5 mx-auto">
-      <div class="col-12 mb-3">
-        <h2>Works</h2>
-      </div>
-      {% include cards.html %}
-      </div>
-
-  </div>
 
 
 
