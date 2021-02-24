@@ -9,11 +9,6 @@ letscook:
     - Unity3D
     - ManomotionSDK
     - Procreate
-  image: ../assets/images/letscook/letscook-1.jpg
-  slides: 
-    - ../assets/images/letscook/letscook-2.jpg
-    - ../assets/images/letscook/letscook-3.jpg
-    - ../assets/images/letscook/letscook-4.jpg
 
 newlight: 
   title: New Light 

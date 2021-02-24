@@ -260,6 +260,19 @@ dl {
 
         position: relative;
 
+        iframe {
+            height: 400px;
+        }
+
+        @media screen and (max-width: 576px)
+        {
+
+            iframe {
+                height: 200px;
+            }
+            
+        }
+
         .overlay {
             position: absolute;
             z-index: 10;
@@ -302,6 +315,8 @@ dl {
     }
 
 }
+
+
 
 //attr ss 
 .attr a {
