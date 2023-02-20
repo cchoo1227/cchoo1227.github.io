@@ -1,3 +1,17 @@
+portfolio: 
+  title: Portfolio Site
+  desc: Fully responsive personal portfolio site to showcase past works.
+  type: personal project
+  category: 
+    - Design
+    - Front-end Development
+  skills: 
+    - HTML5
+    - SCSS
+    - Jekyll
+    - Figma
+  image: ../assets/images/portfolio.jpg
+
 letscook: 
   title: Let's Cook 
   desc: Cooking simulation mobile game to promote healthy eating among children.
@@ -29,7 +43,7 @@ newlight:
 
 dolcevita: 
   title: Dolce Vita
-  desc: Website template for a luxury pet photography service.
+  desc: Fully responsive website for a luxury pet photography service.
   type: personal project
   team: Team of 4
   contributions:
@@ -71,7 +85,7 @@ moonlight:
 
 neogroup: 
   title: Neogroup 
-  desc: Corporate website for Neogroup.</p> 
+  desc: Fully responsive corporate website for Neogroup.</p> 
   team: Team of 2
   type: client project
   contributions: 
@@ -92,7 +106,7 @@ neogroup:
 
 parkhotel: 
   title: Park Hotel Group 
-  desc: Personal adaptation of Park Hotel Group's website to Covid-19 Pandemic
+  desc: Personal adaptation of Park Hotel Group's website for Covid-19 Pandemic
   type: personal project
   category: 
     - Web Design
@@ -103,7 +117,7 @@ parkhotel:
 
 sandpiper: 
   title: Sandpiper Communications
-  desc: Corporate website for Sandpiper Communications.
+  desc: Fully responsive corporate website for Sandpiper Communications.
   type: client project
   category: 
     - Front-end Development 

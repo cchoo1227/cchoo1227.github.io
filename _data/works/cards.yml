@@ -1,3 +1,8 @@
+- title: Portfolio Site
+  image: ../assets/images/tb/portfolio-tb.jpg
+  link: /works/portfolio
+  category: personal
+
 - title: Let's Cook 
   image: ../assets/images/tb/letscook-tb.jpg
   link: /works/letscook

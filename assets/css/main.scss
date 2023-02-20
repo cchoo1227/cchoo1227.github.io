@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Taviraj:wght@400;500;600&display=swap');
 
 //GLOBAL CSS
+html {
+    scroll-behavior: smooth;
+}
 
 //typo
 h1, h2, h3, h4 {
@@ -121,7 +124,9 @@ dl {
     margin-top: 0 !important;
 
     img {
+        
         width: 100%;
+        
     }
 
     .col-md-6 {
@@ -131,6 +136,10 @@ dl {
 
     .btn {
         display: inline-block;
+    }
+
+    .hero-text {
+        width: 70%;
     }
 
     .hero-text .subtitle {
@@ -148,23 +157,13 @@ dl {
         }
 
         .hero-text {
-            text-align: center;
+            width: 100%;
         }
 
     }
 
 }
 
-//skills css 
-.skills {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    border-radius: 10px;
-}
-
-//about css
-#about {
-    background-color: #F9F8F6;
-}
 
 //image overlay
 .background-element {
@@ -179,8 +178,8 @@ dl {
     }
 
     img#leaf {
-        width: 200px;
-        margin-top: -50px;
+        width: 150px;
+        margin-top: -40px;
         transform: rotate(10deg);
     }
 

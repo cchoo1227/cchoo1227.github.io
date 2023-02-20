@@ -68,18 +68,14 @@
                 </dd>
 
                 {% if work.contributions !=null %}
-                <dt>Contributions</dt>
-                <dd>
-                  
-                  <ul>
-                    {% for contribution in work.contributions %}
-                    <li>
-                      {{contribution}}
-                    </li>
-                    {% endfor %}  
-                  </ul>
-
+                <dt>Contributions</dt>        
+                <dd>       
+                  {% for contribution in work.contributions %}
+                  {{contribution}}
+                  <br>
+                  {% endfor %}  
                 </dd>
+               
                 {% endif %}
 
             </dl>

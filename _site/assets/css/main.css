@@ -2225,6 +2225,8 @@ a.text-brown:hover, a.text-brown:focus { color: #20150e !important; }
 
 @media print { *, *::before, *::after { text-shadow: none !important; box-shadow: none !important; } a:not(.btn) { text-decoration: underline; } abbr[title]::after { content: " (" attr(title) ")"; } pre { white-space: pre-wrap !important; } pre, blockquote { border: 1px solid #999; page-break-inside: avoid; } thead { display: table-header-group; } tr, img { page-break-inside: avoid; } p, h2, h3 { orphans: 3; widows: 3; } h2, h3 { page-break-after: avoid; } @page { size: a3; } body { min-width: 992px !important; } .container { min-width: 992px !important; } .navbar { display: none; } .badge { border: 1px solid #000; } .table { border-collapse: collapse !important; } .table td, .table th { background-color: #fff !important; } .table-bordered th, .table-bordered td { border: 1px solid #ddd !important; } }
 
+html { scroll-behavior: smooth; }
+
 h1, h2, h3, h4 { font-family: 'Taviraj', sans-serif; font-weight: 500; color: #D1352A; }
 
 a { font-weight: 700; transition: all .25s ease-in-out; }
@@ -2267,19 +2269,17 @@ dl { font-size: 0.8rem; }
 
 #hero .btn { display: inline-block; }
 
+#hero .hero-text { width: 70%; }
+
 #hero .hero-text .subtitle { font-weight: 500; font-size: 1.2rem; }
 
-@media screen and (max-width: 576px) { #hero .btn { width: 100%; } #hero .hero-text { text-align: center; } }
-
-.skills { box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; border-radius: 10px; }
-
-#about { background-color: #F9F8F6; }
+@media screen and (max-width: 576px) { #hero .btn { width: 100%; } #hero .hero-text { width: 100%; } }
 
 .background-element { height: 50px; overflow: visible; background-color: #fff; }
 
 .background-element img { position: relative; z-index: 99999; }
 
-.background-element img#leaf { width: 200px; margin-top: -50px; transform: rotate(10deg); }
+.background-element img#leaf { width: 150px; margin-top: -40px; transform: rotate(10deg); }
 
 .background-element img#hand { height: 180px; margin-top: -20px; transform: rotate(20deg); }
 
