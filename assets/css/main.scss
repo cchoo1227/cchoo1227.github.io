@@ -123,6 +123,11 @@ dl {
     background-color: #F6EEE3;
     margin-top: 0 !important;
 
+    .row {
+        display: flex;
+        align-items: center;
+    }
+
     img {
         
         width: 100%;
@@ -150,6 +155,10 @@ dl {
     @media screen and (max-width: 576px)
     {
 
+        img {
+            width: 50%;
+        }
+        
         .btn {
 
             width: 100%;
