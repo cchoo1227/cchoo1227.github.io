@@ -123,8 +123,7 @@ dl {
     background-color: #F6EEE3;
     margin-top: 0 !important;
 
-    .row {
-        display: flex;
+    div.row {
         align-items: center;
     }
 
@@ -158,7 +157,7 @@ dl {
         img {
             width: 50%;
         }
-        
+
         .btn {
 
             width: 100%;
