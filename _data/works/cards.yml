@@ -8,6 +8,11 @@
   link: /works/letscook
   category: personal
 
+- title: Calla
+  image: ../assets/images/tb/calla-tb.png
+  link: /works/calla
+  category: personal
+
 - title: Maxicash 
   image: ../assets/images/tb/maxicash-tb.jpg
   link: /works/maxicash

@@ -24,6 +24,19 @@ letscook:
     - ManomotionSDK
     - Procreate
 
+calla: 
+  title: Calla
+  desc: Concept and design for a consumer product.
+  type: personal project
+  category: 
+    - Product Design
+  skills: 
+    - Autodesk Inventor
+    - KeyShot
+  image: ../assets/images/calla/calla-1.png
+  slides: 
+    - ../assets/images/calla/calla-2.png
+
 newlight: 
   title: New Light 
   desc: Concept for an online thrift store. Finalist for NTU WSC Ideathon 2020.
