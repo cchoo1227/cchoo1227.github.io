@@ -33,9 +33,9 @@ calla:
   skills: 
     - Autodesk Inventor
     - KeyShot
-  image: ../assets/images/calla/calla-1.png
+  image: ../assets/images/calla/calla-2.png
   slides: 
-    - ../assets/images/calla/calla-2.png
+    - ../assets/images/calla/calla-1.png
 
 newlight: 
   title: New Light 
