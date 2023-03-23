@@ -3,7 +3,7 @@ portfolio:
   desc: Fully responsive personal portfolio site to showcase past works.
   type: personal project
   category: 
-    - Design
+    - Web Design
     - Front-end Development
   skills: 
     - HTML5
@@ -14,28 +14,42 @@ portfolio:
 
 letscook: 
   title: Let's Cook 
-  desc: Cooking simulation mobile game to promote healthy eating among children.
+  desc: Cooking simulation mobile game to promote healthy eating among children. Most assets were hand-drawn in Procreate.
   type: personal project
   category: 
-    - Design
+    - Illustration
     - Game Development
   skills: 
     - Unity3D
     - ManomotionSDK
     - Procreate
+  video: https://www.youtube.com/embed/xPonwrsVtog
 
 calla: 
   title: Calla
-  desc: Concept and design for a consumer product.
+  desc: Concept and design for a desk lamp.
   type: personal project
   category: 
     - Product Design
+    - 3D Modelling 
   skills: 
     - Autodesk Inventor
     - KeyShot
   image: ../assets/images/calla/calla-2.png
   slides: 
     - ../assets/images/calla/calla-1.png
+
+tracetogether: 
+  title: TraceTogether Redesign
+  desc: Research-backed redesign of TraceTogether mobile application to improve user experience. <br><em>Personal project with no affiliation to TraceTogether.</em><br>
+  team: team of 4
+  type: personal project
+  category: 
+    - UIUX Design
+    - User Research
+  skills: 
+    - Figma
+  video: https://youtu.be/3YSWm_VuiUo
 
 newlight: 
   title: New Light 
@@ -44,8 +58,10 @@ newlight:
   team: team of 4
   contributions:
   - App Design
+  - Product Ideation
   category: 
-    - Design
+    - App Design
+    - User Research
   skills: 
     - Figma
   image: ../assets/images/newlight/newlight-1.jpg
@@ -119,7 +135,7 @@ neogroup:
 
 parkhotel: 
   title: Park Hotel Group 
-  desc: Personal adaptation of Park Hotel Group's website for Covid-19 Pandemic.
+  desc: Personal adaptation of Park Hotel Group's website for Covid-19 Pandemic. <br><em>Personal project with no affiliation to Park Hotel Group.</em><br>
   type: personal project
   category: 
     - Web Design

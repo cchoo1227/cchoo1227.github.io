@@ -3,17 +3,22 @@
   link: /works/portfolio
   category: personal
 
-- title: Let's Cook 
+- title: Let's Cook
   image: ../assets/images/tb/letscook-tb.jpg
   link: /works/letscook
   category: personal
 
-- title: Calla
+- title: TraceTogether Redesign 
+  image: ../assets/images/tb/tracetogether-tb.jpg
+  link: /works/tracetogether
+  category: personal
+
+- title: Calla 
   image: ../assets/images/tb/calla-tb.png
   link: /works/calla
   category: personal
 
-- title: Maxicash 
+- title: E-commerce Mobile App 
   image: ../assets/images/tb/maxicash-tb.jpg
   link: /works/maxicash
   category: client
@@ -23,12 +28,12 @@
   link: /works/moonlight
   category: personal
 
-- title: Sandpiper Communications
+- title: Website for PR Firm 
   image: ../assets/images/tb/sandpiper-tb.jpg
   link: /works/sandpiper
   category: client
  
-- title: Neogroup
+- title: Website for F&B Group 
   image: ../assets/images/tb/neogroup-tb.jpg
   link: /works/neogroup
   category: client
@@ -43,7 +48,7 @@
   link: /works/sgmoneylender
   category: personal
 
-- title: Park Hotel Group 
+- title: Park Hotel Group Redesign
   image: ../assets/images/tb/parkhotel-tb.jpg
   link: /works/parkhotel
   category: personal
@@ -52,3 +57,4 @@
   image: ../assets/images/tb/newlight-tb.jpg
   link: /works/newlight
   category: personal
+
