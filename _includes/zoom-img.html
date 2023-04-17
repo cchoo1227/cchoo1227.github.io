@@ -1,0 +1,30 @@
+
+<div id="zoom-modal">
+<img id="zoom-modal-img" src="x">
+</div>
+
+    <script>	
+	
+let zoomModal = document.getElementById("zoom-modal");
+
+zoomModal.style.display = "none";
+	
+let zoomModalImg = document.getElementById("zoom-modal-img");
+	
+window.onclick = e => {
+
+	if (e.target.className === "zoom-img") {
+	
+	zoomModal.style.display = "block";
+	zoomModalImg.src = e.target.src;
+
+	} 
+}
+
+zoomModal.onclick = e => {
+
+	zoomModal.style.display = "none";
+
+}
+        
+    </script>

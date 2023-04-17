@@ -1,0 +1,58 @@
+    {% include zoom-img.html %}
+	<div class="mb-4"><img src="../assets/images/mymaps/title.png"></div>
+    <p>I've always been a fan of My Maps for trip planning, but I noticed that not many people seem to use it. That got me thinking: why not investigate how My Maps could be improved to make it more user-friendly and effective? So, I decided to do a case study and use the design council's double diamond model as a framework to guide my research. After all, My Maps does have some unique features that are worth exploring, even if they're not as well-known as Google Maps.</p>
+    <div class="zi-p"><img class="zoom-img" src="../assets/images/mymaps/doublediamond.png" ></div>
+    <h3>Discover</h3>
+    <p>To begin, I conducted a heuristic analysis of My Maps using Niesen's 10 usability heuristics as a framework. Although I had used the site before, I had not previously examined it critically from a design standpoint. As a result, I selected key elements that, in conjunction with my user research, would enable me to gain a deeper understanding of the design challenges associated with My Maps and pinpoint areas for enhancement.</p>
+    <h5>Heuristics Analysis</h5>
+	<div class="zi-p"><img class="zoom-img" src="../assets/images/mymaps/heuristics.png" ></div>
+    <h5>User Research</h5>
+	<div class="zi-p"><img class="zoom-img" src="../assets/images/mymaps/userresearch.png" ></div>
+	<p>Following the heuristic analysis, I proceeded with user research to gain a better understanding of the pain points experienced by users when using My Maps. To achieve this, I conducted usability testing with six participants and subsequently carried out follow-up interviews to gain a deeper insight into their experience. From this research, it became evident that users experienced a range of issues when using the application.</p>
+    <div class="zi-p"><img class="zoom-img" src="../assets/images/mymaps/painpoints.png" ></div>
+    <h3>Define</h3>
+	<h5>User Persona and User Journey</h5>
+    <div class="zi-p"><img class="zoom-img" src="../assets/images/mymaps/persona.png" ></div>
+	<div class="zi-p"><img class="zoom-img" src="../assets/images/mymaps/userjourney.png" ></div>
+    <p>To consolidate the research, I generated a user persona and mapped out the user journey for the travel planning process. This helped me identify which pain points to address. From my findings, users were satisfied with other aspects of travel planning, but relied on My Maps for itinerary planning due to its unparalleled route planning features. Consequently, I decided to concentrate on enhancing and refining the route planning functionality to amplify My Maps' unique selling point (USP) and differentiate it from other travel planning apps.</p>
+    <p>As mentioned above, one of the pain points observed was that both new and experienced users were not aware of some of the features of My Maps. This was a critical pain point that required attention, as it had the potential to severely restrict the functionality and benefits of My Maps. Therefore, I also decide to focus enhancing users' awareness of these unique features.</p>
+    <h3>Develop</h3>
+	<h5> "How Might We" and Market Research</h5>
+    To generate potential solutions, I used "How Might We" statements and conducted research on other platforms available in the market.
+    <div class="zi-p"><img class="zoom-img" src="../assets/images/mymaps/hmw-1.png" ></div>
+    <ul>
+    <li>Contextual hints: Lengthy tutorials should be avoided. Instead, it's best to provide users with proactive help that is contextually relevant and delivered in a non-intrusive manner, such as push revelations, as it can help them absorb information better.</li>
+    <li>Familiarity: Incorporating familiar symbols and phrases, along with clear signifiers and feedback, can enhance the user experience and make it more intuitive and efficient.</li>
+    </ul>
+    <div class="zi-p"><img class="zoom-img" src="../assets/images/mymaps/hmw-2.png" ></div>
+    <ul>
+    <li> Make route planning more user-friendly: Keep 'Layers' and 'Directions' separate and ensure that the flow is natural and easy to understand. </li>
+    <li> Provide more information: Consider factors other than just distance, and support alternative modes of transport such as public transportation. </li>
+    <li> Tighter integration with excel: Improve user experience by minimizing the need for users to switch between Excel and My Maps. </li>
+    </ul>
+    <h3>Deliver</h3>
+    <h5>Preliminary Wireframes</h5>
+    <p>After evaluating the research done, I developed two solutions.</p>
+    <ul>
+    <li>Providing Help: guide users on how to use core My Maps features</li>
+    <li>'Add Directions' redesign: make it more intuitive and helpful for planning efficient itineraries</li>
+    </ul>
+    <p>I created preliminary wireframes and sought feedback from a group of four participants on the page layout, flow, ease of navigation, and usefulness of information. From their feedback, it was found that users preferred a single panel instead of two side-by-side, wanted fewer clicks, and desired more information on the map. However, they found the navigation easy and the information provided useful. Using their input, I made some modifications to the wireframes, which led to the final UI mockup in Figma.</p>
+    <div class="zi-p"><img class="zoom-img" src="../assets/images/mymaps/prelim-wf.png" ></div>
+    <h5>Final Wireframes</h5>
+    <p><b>Providing Help</b></p>
+    <div class="zi-p"><img class="w-50 zoom-img" src="../assets/images/mymaps/ph-wf.png" ></div>
+    <p><b>'Add Directions' Redesign</b></p>
+    <div class="zi-p"><img class="zoom-img" src="../assets/images/mymaps/ad-wf.png" ></div>
+    <h5>UI Mockups</h5>
+    <PROVIDE HELP>
+    <p><b>Providing Help</b></p>
+	<div class="zi-p"><img class="zoom-img" src="../assets/images/mymaps/ph-ui.png" ></div>
+    <p>I incorporated pull revelations in the form of instructional overlays which are relevant to users' current actions. This would ensure users are more likely to notice them and complete tasks successfully. I also included push revelations and reactive help, such as a larger and more noticeable help button, to provide additional help when users need it.</p>
+    <p><b>'Add Directions' Redesign</b></p>
+	<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FE6Mz7KqQmIsV1kTRSrW4Ll%2FMy-Maps-Redesign%3Fnode-id%3D1-4%26scaling%3Dcontain%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A4" allowfullscreen></iframe>
+    <p>The navigation is straightforward and intuitive, taking into account possible user flows when adding directions. Helpful tips are provided to users based on time and date to assist with itinerary planning and avoid potential issues during the trip. Additional details, such as departure and arrival times and user notes, are included to create a comprehensive itinerary. In addition, I incorporated an 'Optimise Route' feature to assist users in planning the most efficient routes. Machine learning could be employed to create predictions about the best routes in various situations, and the model could be fine-tuned based on user feedback.</p>
+    <p>From a technical standpoint, these proposed solutions would be feasible given Google's technical capabilities, extensive resources, and domain knowledge in mapping software.</p>
+    <h3>Next Steps</h3>
+    <p>In conclusion, through the use of heuristic evaluation, user research, persona development, and user journey mapping, I was able to identify critical pain points in the My Maps app, particularly in the route planning phase, and propose solutions to enhance the app's unique selling proposition. The redesign prototype presented in this case study is a first iteration, and further testing and research are necessary to refine the design and maximize its effectiveness for users.</p>
+    <p>In the future, I plan to seek user feedback on all ideas and solutions, regardless of their perceived complexity. Although I received feedback on my wireframes for the "Add Directions" redesign, I believe that speaking with users is necessary to determine the practical feasibility of more complex solutions, such as pull revelations. Additionally, I aim to perform more testing to create more personas. Conducting wider research on a larger group would help me identify more user personas, tailoring my solution to meet the needs of different user groups within my target audience and maximize the effectiveness and usefulness of my proposed solutions.</p>

@@ -1,3 +1,14 @@
+mymaps: 
+  title: Google My Maps Case Study
+  desc: Case study and redesign of Google My Maps web app.
+  type: Personal Project
+  category: 
+    - UIUX Design
+    - User Research
+  skills: 
+    - Figma
+  body: mymaps.html
+
 portfolio: 
   title: Portfolio Site
   desc: Fully responsive personal portfolio site to showcase past works.
@@ -200,4 +211,3 @@ maxicash:
   image: ../assets/images/maxicash.jpg
   link: https://play.google.com/store/apps/details?id=com.MaxiCash.ipayment&hl=en_SG&gl=US
 
-  

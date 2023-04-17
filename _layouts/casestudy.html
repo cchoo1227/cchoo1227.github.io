@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico"/>
+    <title>{{ page.title }} - Coslynn Choo</title>
+
+</head>
+  
+  <body>
+      
+    {% include navbar.html %}
+  
+    <div class="container-fluid works bg-grey">
+      <div class="row w-75 pt-5 mx-auto">
+        <div class="col">
+          <div class="back">
+            <a href="/#work"><span class="material-icons mr-1">
+            keyboard_backspace
+            </span> <small>Back to Home</small></a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row w-75 py-5 mx-auto">
+          <div class="col-md-4">
+            {% assign work = site.data.works.info[page.id] %}
+            <h2>{{work.title}}</h2>
+            {% if work.team == null %}
+            <small>{{work.type}}</small>
+            {% else %}
+            <div class="info">
+              <small>{{work.team}}</small>
+              <small>{{work.type}}</small>
+            </div>
+            {% endif %}
+            <hr class="mt-2 mb-4">
+            <p class="mb-4">{{work.desc}}</p>
+            <div>
+              <dl>
+                <dt>Skills</dt>
+                <dd>
+                  {% for category in work.category %}
+                  
+                  {% if category != work.category[0]%}
+                  ,
+                  {% endif %}
+                  
+                  {{category}} 
+
+                  {% endfor %}  
+                </dd>
+            
+                <dt>Tools & Languages</dt>
+                <dd>
+                  {% for skill in work.skills %}
+                                      
+                  {% if skill != work.skills[0] %}
+                  ,
+                  {% endif %}
+
+                  {{skill}}
+                  {% endfor %}
+                </dd>
+
+                {% if work.contributions !=null %}
+                <dt>Contributions</dt>        
+                <dd>       
+                  {% for contribution in work.contributions %}
+                  {{contribution}}
+                  <br>
+                  {% endfor %}  
+                </dd>
+               
+                {% endif %}
+
+            </dl>
+
+                
+            </div>
+          </div>
+          <div class="col-md-8 casestudy">
+
+		  {% include {{work.body}} %}
+
+      </div>
+
+    </div>
+	
+	</div>
+
+    {% include footer.html %}
+
+
+  </body>
+
+  
+  
+</html>
